@@ -12,5 +12,12 @@ public class squareTest {
 		int output = test.square(5);
 		assertEquals(25, output);
 	}
+	
+	@Test
+	public void test2() {
+		JunitTesting test = new JunitTesting();
+		int output = test.square(5);
+		assertEquals(26, output);
+	}
 
 }
